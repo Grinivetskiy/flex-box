@@ -2,8 +2,11 @@ body {
     font-family: 'graphik_lcgregular', 'graphik_lcgsemibold', Arial, Helvetica, sans-serif;
 }
 
+
+
 a {
     color: #000000;
+    
 }
 /* убрал с сылки подчеркивания и изменил цвет */
 .link-hiden {
@@ -58,9 +61,13 @@ a {
 .btn {
     border: 1px solid rgba(0, 0, 0, 0.5);
     width: 120px;
-    height: 45px;
     margin: 0 3px;
     text-align: center;
+}
+
+.btn:hover {
+    margin: 0 6px;
+    box-shadow: yellowgreen;
 }
 
 .white {
@@ -93,8 +100,7 @@ hr {
 }
 
 .text-for-picture p {
-    padding: 0 100px 0 0;
-    margin: 52px 0 50px;
+    margin: 52px 0 86px;
 }
 
 .text-for-picture {
@@ -144,13 +150,13 @@ hr {
     font-weight: 600;
     font-size: 50px;
     line-height: 60px; 
-     padding: 0 0 60px 0;
+    padding: 110px 0 60px 0;
 }
 
 .header-logo {
     margin: 0 auto;
     text-align: center;
-    padding: 110px 300px 0 400px;
+    padding: 0 300px 0 400px;
 
 }
 
@@ -169,19 +175,18 @@ hr {
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
+    padding: 157px 150px 0 6px;
 }
 
 .text-for-app h2 {
     font-weight: 600;
     font-size: 50px;
     line-height: 60px;
-    padding: 157px 150px 0 6px;
     margin: 0;
 }
 
 .text-for-app p {
-    padding: 29px 100px 0 9px;
-    margin: 0;
+    margin: 29px 0 0;
 }
 
 .start {
@@ -190,14 +195,12 @@ hr {
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
-    padding: 31px 0 0 5px;
+    padding: 67px 0 0;
 }
 
 .img-photo {
     padding: 0;
 }
-
-.container-main { }
 
 .revers {
     display: flex;
@@ -206,7 +209,7 @@ hr {
 }
 
 .revers>.text-for-app {
-    padding: 0 0 0 135px;
+    padding: 148px 0 0 142px;
 }
 
 .icon-list {
@@ -404,15 +407,20 @@ line-height: 30px;
 
 .lok-text {
     background: #FF9C7D;;
-    margin: 0;
-    padding: 118px 110px 160px 115px;
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 60px; 
+    margin: 0 auto;
+    width: 100%;
+    padding: 118px 112px 162px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.lok-box {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px; 
+
 }
 
 .lok-text h2 {
@@ -424,8 +432,7 @@ line-height: 30px;
 }
 
 .lok-text p {
-    margin: 0;
-    padding: 16px 310px 0;
+    margin: 16px 0 36px;
 }
 
 .btn-big-black {
@@ -433,8 +440,7 @@ line-height: 30px;
     font-size: 16px;
     line-height: 60px;
     border: 1px solid rgba(0, 0, 0, 0.5);
-    width: 162px;
-    height: 60px;
+    padding: 20px 45px;
     margin: 39px 0 0;
     text-align: center;
 }
@@ -497,6 +503,7 @@ line-height: 30px;
     font-weight: 400;
     font-size: 15px;
     line-height: 15px;
+    width: 20%;
 }
 
 .first {
@@ -525,7 +532,7 @@ line-height: 30px;
 .sign {
     display: flex;
     align-items: center;
-    padding: 42px 0;
+    padding: 52px 0;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
@@ -533,7 +540,7 @@ line-height: 30px;
 }
 
 .sign p {
-    padding: 0 0 0 20px;
+    margin: 0 0 0 20px;
 }
 
 .date {
